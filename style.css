@@ -64,7 +64,7 @@ nav a {
   padding: 8px 14px;
 }
 
-/* HERO */
+
 .hero {
   position: relative;
   height: 85vh;
@@ -169,3 +169,35 @@ nav a {
 .right { right: 0; top: 50%; transform: translateY(-50%); }
 .bottom-left { bottom: 0; left: 25%; }
 .bottom-right { bottom: 0; right: 25%; }
+
+.cta {
+  background: #f1f5f9;
+  padding: 80px 0;
+  text-align: center;
+}
+
+
+.footer {
+  background: #020617;
+  color: #94a3b8;
+  padding: 40px 0;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer img {
+  height: 32px;
+}
+
+.socials img {
+  margin-left: 12px;
+  width: 20px;
+}
+
+copyright {
+  text-align: center;
+}
