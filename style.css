@@ -44,6 +44,7 @@ nav a {
 .btn {
   background: #22c55e;
   color: #fff;
+  margin-trim: all;
   padding: 12px 20px;
   border-radius: 6px;
   text-decoration: none;
@@ -173,16 +174,10 @@ nav a {
   width: 60px;
 }
 
-.top { top: 0; left: 50%; transform: translateX(-50%); }
-.left { left: 0; top: 50%; transform: translateY(-50%); }
-.right { right: 0; top: 50%; transform: translateY(-50%); }
-.bottom-left { bottom: 0; left: 25%; }
-.bottom-right { bottom: 0; right: 25%; }
-
 .cta {
   background: #f1f5f9;
   padding: auto;
-  padding: 80px 0;
+  padding: 40px 0;
   text-align: center;
 }
 
