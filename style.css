@@ -41,7 +41,6 @@ nav a {
   font-weight: 500;
 }
 
-/* BUTTONS */
 .btn {
   background: #22c55e;
   color: #fff;
@@ -63,7 +62,6 @@ nav a {
 .btn-small {
   padding: 8px 14px;
 }
-
 
 .hero {
   position: relative;
@@ -135,6 +133,17 @@ nav a {
   border-radius: 12px;
 }
 
+.icon-bg{
+    background-color: orangered;
+  
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+
 .problem-card img {
   width: 40px;
   margin-bottom: 16px;
@@ -152,7 +161,7 @@ nav a {
 }
 
 .center-brain {
-  width: 160px;
+  width: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -172,6 +181,7 @@ nav a {
 
 .cta {
   background: #f1f5f9;
+  padding: auto;
   padding: 80px 0;
   text-align: center;
 }
@@ -199,5 +209,7 @@ nav a {
 }
 
 copyright {
-  text-align: center;
+  text-align: justify;
+  margin: 0 auto;
 }
+
